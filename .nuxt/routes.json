@@ -1,0 +1,30 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/myouaki/Desktop/i18n/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_cf14c804"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/myouaki/Desktop/i18n/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_8fa5127a"
+  },
+  {
+    "name": "lang",
+    "path": "/:lang",
+    "component": "/Users/myouaki/Desktop/i18n/pages/_lang/index.vue",
+    "chunkName": "pages/_lang/index",
+    "_name": "_1dbe797e"
+  },
+  {
+    "name": "lang-about",
+    "path": "/:lang/about",
+    "component": "/Users/myouaki/Desktop/i18n/pages/_lang/about.vue",
+    "chunkName": "pages/_lang/about",
+    "_name": "_5d2e2f08"
+  }
+]
