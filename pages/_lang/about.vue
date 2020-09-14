@@ -5,6 +5,7 @@
         {{ $t('about.title') }}
       </h1>
       <p>{{ $t('about.introduction') }}</p>
+      <p>{{ $t('test-i18n') }} / {{ testI18n }}</p>
     </div>
   </div>
 </template>
@@ -13,6 +14,11 @@
 export default {
   head () {
     return { title: this.$t('about.title') }
+  },
+  data () {
+    return {
+      testI18n: this.$t('test-i18n'),
+    }
   }
 }
 </script>

@@ -3,7 +3,7 @@
     <header class="Header">
       <div class="container">
         <h1 class="Header__Title">
-          Nuxt i18n
+          Nuxt i18n / {{ $t('test-i18n') }} / {{ testI18n }}
         </h1>
         <nav class="Header__Menu">
           <NuxtLink :to="$i18n.path('')" class="Header__Link" exact>
@@ -26,7 +26,13 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data () {
+    return {
+      testI18n: this.$t('test-i18n'),
+    }
+  }
+}
 </script>
 
 <style>
